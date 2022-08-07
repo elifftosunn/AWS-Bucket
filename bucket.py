@@ -40,7 +40,7 @@ def delete_file():
 
 delete_file()
 
-# 1- buckets between file copy => herhangi bir buket
+# 1- buckets between file copy => any buket
 def copy_file():
     copy_source = {
     'Bucket': 'elifbuckett',
@@ -55,7 +55,7 @@ def copy_file():
 
 copy_file()
 
-# 2- buckets between copy  => suan calistigin buket
+# 2- buckets between copy  => the buket you're working on now
 def copy_file2():
     copy_source = {
     'Bucket': '',
