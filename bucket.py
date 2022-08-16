@@ -15,7 +15,6 @@ def list_bucket():
     for s3_file in bucket.objects.all():
         print(s3_file.key)
 
-
 list_bucket()
 
 
