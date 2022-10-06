@@ -4,7 +4,7 @@ from boto3.session import Session
 ACCESS_KEY = ''
 SECRET_KEY = ''
 bucket_name = ''
-
+ 
 session = Session(aws_access_key_id=ACCESS_KEY,
                 aws_secret_access_key=SECRET_KEY)
 s3 = session.resource('s3')
